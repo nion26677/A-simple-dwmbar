@@ -36,7 +36,7 @@ def battery():
     battery = psutil.sensors_battery()
     return (
         f"Charging {battery.percent:0.0f}"
-        if battery.power_plugged and battery.power_plugged != 100
+        if battery.power_plugged and int(battery.percent) != 100
         else f"Bat {battery.percent:0.0f}%"
     )
 
