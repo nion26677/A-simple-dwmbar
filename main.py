@@ -25,7 +25,7 @@ def get_time():  # Time
 
 
 def cpu_load():
-    return f"Cpu {psutil.cpu_percent(interval=0.2)}%"
+    return f"Cpu {psutil.cpu_percent(interval=1)}%"
 
 
 def memory_usage():
