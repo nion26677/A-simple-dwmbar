@@ -158,3 +158,5 @@ memory
 battery
 volume
 ```
+
+:)
