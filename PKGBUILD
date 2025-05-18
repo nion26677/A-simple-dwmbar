@@ -4,7 +4,7 @@ pkgrel=1
 pkgdesc='A simple dwmbar'
 arch=('x86_64')
 source=("main.bin")
-sha256sums=('52915f3a3596b4730e9299b785103cd60c57e47673aebbffdfc10b9e06c5e9b8')
+sha256sums=('50b5609880c3db2cd96ee1285c65e89f0a0b76099f46227e92962351f968c763')
  
 package() {
     install -Dm755 "$srcdir/main.bin" "$pkgdir/usr/bin/${pkgname%-bin}"
